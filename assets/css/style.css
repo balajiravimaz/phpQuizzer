@@ -1,0 +1,88 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 40px;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+footer{  
+  width: 100%;
+  padding: 5px;  
+  font-size: 14px;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+}
+.mx-width{  
+  max-width: 600px !important;
+  margin: 0 auto !important;
+  margin-top: 120px !important;
+}
+.num{
+  width: 30px;  
+  box-shadow: 0 0 2px rgba(0,0,0,.5);
+  text-align: center;
+  cursor: pointer;
+}
+.num.active{
+  border: 2px solid rgb(1, 56, 255);
+}
+.flex{
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bg1{
+  background: rgb(157, 193, 255);
+}
+.bg2{
+  background: rgb(243 243 243);
+}
+.card-answer{
+ background: rgb(243 243 243) !important;
+ padding: 20px;
+ border: 0 !important;
+}
+.form-check{
+  margin-top: 20px !important;
+}
+label{
+  background: #e0e0e0 !important;
+  width: 100%;
+  padding: 2px 5px;
+}
+.t20{
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+}
+.bg2{
+  position: relative;
+}
+.question{
+  display: none;
+  opacity: 0;
+}
+.question.active{
+  display: block;
+  opacity: 1;
+}
+.bgs{
+  background: green;
+  color: #fff;
+}
+.bgr{
+  background: red;
+  color: #fff;
+}
+label{
+  cursor: pointer !important;
+}
